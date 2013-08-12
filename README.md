@@ -22,7 +22,10 @@ Pink indicates a private framework. Green is public.
 
 You can append multiple names, eg:
 
-`./depviz.py "~/Library/Developer/Xcode/iOS DeviceSupport/5.1.1 (9B206)/Symbols/System/Library/" AirTraffic CoreVideo`
+```
+./depviz.py "~/Library/Developer/Xcode/iOS DeviceSupport/5.1.1 (9B206)/Symbols/System/Library/" \
+AirTraffic CoreVideo
+```
 
 ## Installing Graphviz on OS X
 
