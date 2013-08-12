@@ -18,6 +18,7 @@ To generate a graph of just the dependencies of `AirTraffic.framework`. This gra
 
 ![AirTraffic Graph](screenshots/airtraffic.png?raw=true)
 
+Pink indicates a private framework. Green is public.
 
 You can append multiple names, eg:
 
@@ -47,4 +48,4 @@ I usually find it nicer to use the command line, eg:
 
 `dot -v -Gnslimit=20 -Gmaxiter=10 -Gmaxiter1=10 -Tpdf -o deps.pdf deps.dot`
 
-Which will generate a PDF of the output called `deps.pdf`.
+Which will generate a PDF of the output called `deps.pdf`. The limits allow dot to process much larger graphs in a reasonable amount of time.
